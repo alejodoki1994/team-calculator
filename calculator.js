@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
   const secondValue = document.querySelector('#numberB').value;
   const operation = document.querySelector('#operation').value;
 
-  if (firstValue === '' || secondValue === '') {
+  if (firstValue.trim() === '' || secondValue.trim() === '') {
     result.textContent = 'Please enter a valid number in both fields.';
     return;
   }
@@ -41,5 +41,7 @@ button.addEventListener('click', () => {
 
     const quotient = firstNumber / secondNumber;
     result.textContent = `${firstNumber} ÷ ${secondNumber} = ${quotient}`;
+  } else {
+    result.textContent = 'Please select a valid operation.';
   }
 });
