@@ -9,3 +9,37 @@ The two files are intentionally simple for a collaborative Git/GitHub classroom 
 To run: open `index.html` in a browser. No dependencies or server required.
 
 This starter is optional. It is not the GitHub Classroom assignment repository. Use the repository and submission instructions supplied by your college when available.
+---------------------------------------------------------------------
+
+# Team Calculator
+
+A browser calculator that supports addition, subtraction, multiplication,
+and division with whole numbers, decimals, and negative numbers. It shows
+an error if an input is empty or invalid, or if the user divides by zero.
+
+## How to run
+
+1. Open `index.html` in a web browser.
+2. Enter two numbers and select an operation.
+3. Click **Calculate** to see the result.
+
+## Team contributions
+
+- Alejandro Goez worked on `calculator.js` in the `feature/logic` branch.
+  He implemented the four operations, input validation, and division-by-zero handling.
+- Stiven Leon Fuentes worked on `index.html` in the `feature/ui` branch.
+  He designed the calculator interface.
+
+  Team Calculator — GitHub Collaboration
+
+GitHub repository:
+https://github.com/alejodoki1994/team-calculator
+
+Calculator logic — Alejandro Goez:
+https://github.com/alejodoki1994/team-calculator/pull/1
+
+Calculator interface — Stiven Leon:
+https://github.com/alejodoki1994/team-calculator/pull/2
+
+README & logic updates — Alejandro Goez:
+https://github.com/alejodoki1994/team-calculator/pull/3
