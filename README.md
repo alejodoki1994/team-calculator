@@ -30,7 +30,7 @@ an error if an input is empty or invalid, or if the user divides by zero.
 - Stiven Leon Fuentes worked on `index.html` in the `feature/ui` branch.
   He designed the calculator interface.
 
-  Team Calculator — GitHub Collaboration
+## GitHub collaboration
 
 GitHub repository:
 https://github.com/alejodoki1994/team-calculator
